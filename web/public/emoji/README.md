@@ -1,3 +1,15 @@
+---
+title: 'Self-hosted emoji data'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Self-hosted emoji data
 
 `emojibase-17.0.0/en/{data,messages}.json` are vendored files from

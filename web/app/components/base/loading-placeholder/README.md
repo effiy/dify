@@ -1,3 +1,15 @@
+---
+title: 'Loading placeholder'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Loading placeholder
 
 `LoadingPlaceholder` replaces an unavailable content slot with a centered 16px Dify UI Spinner.

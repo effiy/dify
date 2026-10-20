@@ -1,3 +1,15 @@
+---
+title: 'Step-by-step Tour'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Step-by-step Tour
 
 This directory owns the cross-route Step-by-step Tour capability.

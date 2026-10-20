@@ -1,3 +1,15 @@
+---
+title: 'Debugging with VS Code'
+tags: []
+category: 'vscode'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Debugging with VS Code
 
 [`launch.json.template`](launch.json.template) provides API and Celery worker debug configurations for VS Code / Cursor. Both use `api/.venv/bin/python`; complete the [backend setup](../api/README.md) first.

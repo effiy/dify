@@ -1,3 +1,17 @@
+---
+title: 'Image optimization checks'
+tags: []
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Image optimization checks
 
 The `Image optimization` workflow trial-compresses added or modified images in pull requests. It fails when the candidate is **more than 25% smaller** than the original, or an image cannot be inspected. There are no fixed file-size limits or gzip budgets. Explicit ignore rules require a reason.
@@ -86,3 +100,45 @@ pnpm --filter @dify/image-resources check:images --base origin/main
 Use `--all --fix` to optimize all tracked images in scope. Fix mode overwrites only images exceeding the 25% savings threshold, reports each modified file and its savings, and leaves passing/skipped/invalid images untouched. It exits successfully when all detected opportunities are fixed; inspection or write errors still return a failure, even if other files were fixed. Each replacement is written to a temporary file in the same directory and renamed only after writing succeeds. Changes are not staged or committed. Review them in their actual display context, especially JPEG/WebP candidates (including embedded rasters), because these are lossy. Subsequent checks read the updated files.
 
 CI continues to run check mode only. CI emits file annotations and a summary of sizes, savings, methods, and skipped resources. CI does not export or upload candidates, post PR comments, or create source commits. Use local `--fix`, then review the changes before committing. To make failures block merging, require the `Image optimization` status check in the repository branch rules.
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

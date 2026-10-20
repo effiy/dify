@@ -1,3 +1,15 @@
+---
+title: 'Goto Anything'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Goto Anything
 
 Global command palette that coordinates detached dialog triggers, typed search, commands, and navigation.

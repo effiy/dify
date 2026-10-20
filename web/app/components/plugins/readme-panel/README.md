@@ -1,3 +1,15 @@
+---
+title: 'Plugin Readme reading'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Plugin Readme reading
 
 The panel owns Readme loading, empty and error presentation. Its store owns the

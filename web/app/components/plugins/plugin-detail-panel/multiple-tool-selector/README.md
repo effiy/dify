@@ -1,3 +1,15 @@
+---
+title: 'Multiple Tool Selector'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Multiple Tool Selector
 
 `index.tsx` is the public list composition for selecting and configuring multiple tools. It owns tool identity, list ordering, add and delete updates, enabled counts, and the optional collapsed state.

@@ -1,3 +1,15 @@
+---
+title: 'Workflow Graph Engine Smoke Tests'
+tags: ['api']
+category: 'api'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Workflow Graph Engine Smoke Tests
 
 This directory now keeps only a small Dify-owned smoke layer around the external

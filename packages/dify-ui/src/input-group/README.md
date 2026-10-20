@@ -1,3 +1,15 @@
+---
+title: 'Input Group'
+tags: ['dify-ui']
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Input Group
 
 Use `InputGroup` when one text input shares a visual surface with a prefix, suffix, or action. Use

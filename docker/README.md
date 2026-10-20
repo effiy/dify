@@ -1,3 +1,17 @@
+---
+title: 'Docker deployment'
+tags: ['docker']
+category: 'docker'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Docker deployment
 
 Run Dify with Docker Compose. Configuration templates live in `.env.example` and `envs/`; local overrides belong in `.env`.
@@ -208,3 +222,45 @@ chmod +x dify-env-sync.sh
 # Run the synchronization
 ./dify-env-sync.sh
 ```
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

@@ -1,3 +1,17 @@
+---
+title: 'Internationalization'
+tags: ['web', 'i18n']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Internationalization
 
 English JSON files under `web/i18n/locales/en-US/` are the source locale. Other locale directories must keep the source flat keys and placeholders. They may also add the plural variants required by their language. i18next uses `keySeparator: false`, so dots are part of a key rather than nested-object separators.
@@ -187,3 +201,45 @@ values and language-specific plural forms when moving keys.
 [`i18next-resources-for-ts`]: https://github.com/i18next/i18next-resources-for-ts
 [official TypeScript guidance]: https://www.i18next.com/overview/typescript
 [plural rules]: https://www.i18next.com/translation-function/plurals
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

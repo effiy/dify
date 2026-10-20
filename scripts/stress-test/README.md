@@ -1,3 +1,15 @@
+---
+title: 'Dify SSE stress tests'
+tags: []
+category: 'scripts'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Dify SSE stress tests
 
 This Locust suite exercises streaming `POST /v1/workflows/run` requests against a local Dify instance with a mock OpenAI server. It measures connection counts, event throughput, time to first event (TTFE), stream duration, inter-event latency, and failures.

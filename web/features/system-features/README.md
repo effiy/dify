@@ -1,3 +1,15 @@
+---
+title: 'System Features'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # System Features
 
 This feature owns the deployment-wide capability query contract and application bootstrap boundary. It is neither a

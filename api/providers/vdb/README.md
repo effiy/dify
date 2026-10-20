@@ -1,3 +1,17 @@
+---
+title: 'VDB providers'
+tags: ['api']
+category: 'api'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # VDB providers
 
 This directory contains all VDB providers.
@@ -56,3 +70,45 @@ The API uses a **uv workspace** (`api/pyproject.toml`):
 1. **`[tool.uv.workspace]`** — `members = ["providers/vdb/*"]` already includes every subdirectory under `vdb/`; new folders there are workspace members.
 2. **`[tool.uv.sources]`** — add a line for your package: `dify-vdb-mine = { workspace = true }`.
 3. **`[dependency-groups]`** — add a group such as `vdb-mine = ["dify-vdb-mine"]`, and list `dify-vdb-mine` under `vdb-all` if it should install with the default bundle.
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

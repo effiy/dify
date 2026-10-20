@@ -1,3 +1,15 @@
+---
+title: 'Web date and time pickers'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Web date and time pickers
 
 Use the local `date-picker`, `time-picker`, or `date-time-picker` entry in Web. Each exports

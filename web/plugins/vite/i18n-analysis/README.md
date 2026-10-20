@@ -1,3 +1,15 @@
+---
+title: 'i18n build analysis'
+tags: ['web', 'i18n']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # i18n build analysis
 
 `i18nAnalysisPlugin()` prints a compact summary during production Vite builds,

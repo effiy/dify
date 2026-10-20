@@ -1,3 +1,15 @@
+---
+title: 'Development with devcontainer'
+tags: []
+category: 'devcontainer'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Development with devcontainer
 
 This project includes a devcontainer configuration that allows you to open the project in a container with a fully configured development environment.

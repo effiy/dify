@@ -1,3 +1,15 @@
+---
+title: 'Dify Enterprise Telemetry'
+tags: ['api']
+category: 'api'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Dify Enterprise Telemetry
 
 This document provides an overview of the Dify Enterprise OpenTelemetry (OTEL) exporter and how to configure it for integration with observability stacks like Prometheus, Grafana, Jaeger, or Honeycomb.

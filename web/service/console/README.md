@@ -1,3 +1,15 @@
+---
+title: 'Console service'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Console service
 
 Use `consoleClient` and `consoleQuery` from `@/service/console`

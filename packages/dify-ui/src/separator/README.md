@@ -1,3 +1,15 @@
+---
+title: 'Separator'
+tags: ['dify-ui']
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Separator
 
 A static separator built on [Base UI Separator]. By default, it exposes `role="separator"`

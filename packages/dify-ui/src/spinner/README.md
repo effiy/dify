@@ -1,3 +1,15 @@
+---
+title: 'Spinner'
+tags: ['dify-ui']
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Spinner
 
 `Spinner` is a named, indeterminate progress indicator built on Base UI Progress. Supply exactly

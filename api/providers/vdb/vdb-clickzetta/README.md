@@ -1,3 +1,15 @@
+---
+title: 'Clickzetta Vector Database Integration'
+tags: ['api', 'cli']
+category: 'api'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Clickzetta Vector Database Integration
 
 This module provides integration with Clickzetta Lakehouse as a vector database for Dify.

@@ -1,3 +1,15 @@
+---
+title: 'Infotip'
+tags: ['dify-ui']
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Infotip
 
 Use `Infotip` when an information icon's primary action is opening an explanation. Use

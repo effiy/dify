@@ -1,3 +1,17 @@
+---
+title: 'Dify PHP SDK'
+tags: ['cli', 'sdk']
+category: 'sdk'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Dify PHP SDK
 
 This is the PHP SDK for the Dify API, which allows you to easily integrate Dify into your PHP applications.
@@ -94,3 +108,45 @@ Replace 'your-api-key-here' with your actual Dify API key.
 ## License
 
 This SDK is released under the MIT License.
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

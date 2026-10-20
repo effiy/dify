@@ -1,3 +1,17 @@
+---
+title: '@langgenius/dev-proxy'
+tags: []
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # @langgenius/dev-proxy
 
 Generic Hono-based development proxy for frontend projects. The package does not ship any product-specific routes, cookie names, or environment variable conventions. Every proxied path and upstream target is declared in a local config file.
@@ -217,3 +231,45 @@ const cookieRewrite: CookieRewriteOptions = {
 - Hop-by-hop headers are removed before forwarding.
 - Local credentialed CORS and preflight requests are handled by the proxy.
 - Route matching is explicit and order-sensitive.
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

@@ -1,3 +1,15 @@
+---
+title: 'Marketplace Catalog Home'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Marketplace Catalog Home
 
 Shared catalog layout for the Plugins and Templates pages, including the header, hero, search, trending, tabs, and sticky category navigation.

@@ -1,3 +1,17 @@
+---
+title: 'Cross-Environment Data Migration'
+tags: []
+category: 'documentation'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Cross-Environment Data Migration
 
 This guide explains how to move workflow apps, chatflow apps, and their custom tool dependencies from one Dify environment to another.
@@ -284,3 +298,45 @@ Watch out for:
 - Workflow DSL provider references are rewritten using the generated ID mapping where possible.
 - Dependencies that are metadata-only, such as MCP providers exported with `include_secrets=false`, still require manual target-side configuration.
 - Built-in/plugin tools are not remapped as migrated custom resources; the target environment must provide them separately.
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

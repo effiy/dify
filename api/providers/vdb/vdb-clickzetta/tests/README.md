@@ -1,3 +1,15 @@
+---
+title: 'Clickzetta Integration Tests'
+tags: ['api', 'cli']
+category: 'api'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Clickzetta Integration Tests
 
 ## CI Integration Tests

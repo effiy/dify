@@ -1,3 +1,15 @@
+---
+title: 'Tool Selector'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Tool Selector
 
 `index.tsx` is the public single-tool selector. It owns the configured or unconfigured trigger, Popover lifecycle, tool form, authorization, settings, and deletion action wiring.

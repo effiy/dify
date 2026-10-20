@@ -1,3 +1,15 @@
+---
+title: 'Launching new servers with SSL certificates'
+tags: ['docker']
+category: 'docker'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Launching new servers with SSL certificates
 
 Run the following commands from `docker/`. The optional `certbot` profile obtains and renews certificates when you invoke its update script; it does not schedule renewals automatically.

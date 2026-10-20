@@ -1,3 +1,15 @@
+---
+title: 'Dify README (हिन्दी (Hindi))'
+tags: ['translation', 'dify', 'readme']
+category: 'documentation'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 ![cover-v5-optimized](../../images/GitHub_README_if.png)
 
 <p align="center">
@@ -174,3 +186,51 @@ Dify सभी प्रकार के योगदानों का स्�
 ## लाइसेंस (License)
 
 यह रिपॉज़िटरी [Dify Open Source License](../../LICENSE) के अंतर्गत लाइसेंस प्राप्त है, जो Apache 2.0 पर आधारित है और इसमें अतिरिक्त शर्तें शामिल हैं।
+
+---
+
+💡 一、项目价值概述
+
+（请参阅上方原始内容）
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

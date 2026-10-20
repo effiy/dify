@@ -1,3 +1,15 @@
+---
+title: 'Icon Button'
+tags: ['dify-ui']
+category: 'packages'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Icon Button
 
 Use `IconButton` for a command represented by one icon and no visible text. Use [`Button`] when

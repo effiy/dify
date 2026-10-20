@@ -1,3 +1,15 @@
+---
+title: 'Dify README (العربية (Arabic))'
+tags: ['translation', 'dify', 'readme']
+category: 'documentation'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 ![cover-v5-optimized](../../images/GitHub_README_if.png)
 
 <p align="center">
@@ -157,3 +169,51 @@ docker compose up -d
 ## الرخصة
 
 هذا المستودع متاح تحت [رخصة البرنامج الحر Dify](../../LICENSE)، والتي تعتبر بشكل أساسي Apache 2.0 مع بعض القيود الإضافية.
+
+---
+
+💡 一、项目价值概述
+
+（请参阅上方原始内容）
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」

@@ -1,3 +1,15 @@
+---
+title: 'Analytics Consent'
+tags: ['web']
+category: 'web'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
 # Analytics Consent
 
 This module owns CookieYes consent state and the Dify Cloud analytics boundary.

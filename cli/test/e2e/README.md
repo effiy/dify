@@ -1,3 +1,17 @@
+---
+title: 'Dify CLI — E2E Test Suite'
+tags: ['cli', 'e2e']
+category: 'cli'
+created: '2026-10-20'
+updated: '2026-10-20'
+source: 'external'
+type: 'index'
+status: 'stable'
+lifecycle: 'active'
+---
+
+💡 一、项目价值概述
+
 # Dify CLI — E2E Test Suite
 
 End-to-end tests that exercise the **real `difyctl` binary** against a live
@@ -207,3 +221,45 @@ login → status → use → whoami → help → config → output → error-han
 | **`mintFreshToken()`**                  | `logout` and `devices-revoke` tests mint a disposable `dfoa_` token via the device flow API.                               |
 | **Global `retry: 0`**                   | Flaky network calls use `withRetry()` locally; global retry masks non-idempotent failures.                                 |
 | **Conversation cleanup**                | `registerConversation()` + global-teardown delete staging conversations after the run.                                     |
+
+---
+
+⚡ 二、功能特征
+
+「待补充」
+
+---
+
+📊 三、关键指标
+
+「待补充」
+
+---
+
+🏛️ 四、核心设计
+
+「待补充」
+
+---
+
+📁 五、目录结构与文件约定
+
+「待补充」
+
+---
+
+🔗 六、相关资源
+
+「待补充」
+
+---
+
+🚀 快速开始
+
+「待补充」
+
+---
+
+⚙️ 技术栈
+
+「待补充」
