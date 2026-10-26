@@ -3,10 +3,16 @@ import { useTranslation } from 'react-i18next'
 import FirstEmptyActionCard from '@/app/components/apps/first-empty-state/action-card'
 import { STEP_BY_STEP_TOUR_TARGETS } from '@/app/components/step-by-step-tour/target-registry'
 
-const EMPTY_PLACEHOLDER_CARD_IDS = Array.from(
-  { length: 16 },
-  (_, index) => `dataset-placeholder-card-${index}`,
-)
+const PLACEHOLDER_CARD_VARIANTS = [
+  { leftBar: 'bg-util-colors-blue-brand-blue-brand-500', opacity: 'opacity-30' },
+  { leftBar: 'bg-util-colors-purple-purple-500', opacity: 'opacity-20' },
+  { leftBar: 'bg-util-colors-green-green-500', opacity: 'opacity-25' },
+  { leftBar: 'bg-util-colors-blue-brand-blue-brand-500', opacity: 'opacity-15' },
+  { leftBar: 'bg-util-colors-orange-orange-500', opacity: 'opacity-20' },
+  { leftBar: 'bg-util-colors-purple-purple-500', opacity: 'opacity-30' },
+  { leftBar: 'bg-util-colors-green-green-500', opacity: 'opacity-15' },
+  { leftBar: 'bg-util-colors-blue-brand-blue-brand-500', opacity: 'opacity-25' },
+] as const
 
 type EmptyCreateAction = {
   badge?: string
@@ -70,12 +76,31 @@ function DatasetFirstEmptyState({
   return (
     <div className="flex grow flex-col overflow-hidden">
       <div className="relative min-h-130 flex-1 overflow-hidden">
-        <div className="pointer-events-none absolute inset-x-8 inset-y-2 grid grid-cols-[repeat(auto-fill,minmax(296px,1fr))] grid-rows-4 gap-3">
-          {EMPTY_PLACEHOLDER_CARD_IDS.map((id) => (
-            <div key={id} className="rounded-xl bg-background-default-lighter opacity-75" />
+        <div className="pointer-events-none absolute inset-x-8 top-2 grid grid-cols-[repeat(auto-fill,minmax(296px,1fr))] content-start gap-3">
+          {PLACEHOLDER_CARD_VARIANTS.map((variant, index) => (
+            <div
+              key={`placeholder-${index}`}
+              className={`relative overflow-hidden rounded-xl border-[0.5px] border-divider-subtle bg-background-default-lighter ${variant.opacity}`}
+            >
+              <div className={`absolute top-0 left-0 h-full w-1 ${variant.leftBar} rounded-l-xl`} />
+              <div className="space-y-3 px-4 py-4">
+                <div className="flex items-center gap-3">
+                  <div className="size-8 shrink-0 rounded-lg bg-background-default-dimmed" />
+                  <div className="h-3 w-24 rounded-sm bg-background-default-dimmed" />
+                </div>
+                <div className="space-y-1.5">
+                  <div className="h-2 w-full rounded-sm bg-background-default-dimmed" />
+                  <div className="h-2 w-3/4 rounded-sm bg-background-default-dimmed" />
+                </div>
+                <div className="flex items-center gap-3 pt-1">
+                  <div className="h-2 w-12 rounded-sm bg-background-default-dimmed" />
+                  <div className="h-2 w-16 rounded-sm bg-background-default-dimmed" />
+                </div>
+              </div>
+            </div>
           ))}
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-background-body/0 to-background-body" />
+        <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-background-body/0 via-background-body/60 to-background-body" />
         <section
           className="absolute inset-0 flex items-center justify-center overflow-hidden p-2"
           aria-labelledby="datasets-first-empty-title"

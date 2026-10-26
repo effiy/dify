@@ -94,10 +94,17 @@ const DatasetCard = ({
       : `/datasets/${dataset.id}/documents`
 
   const cardClassName = cn(
-    'group relative col-span-1 flex min-h-41.5 flex-col overflow-hidden rounded-xl border-[0.5px] border-solid border-components-card-border bg-components-card-bg shadow-xs shadow-shadow-shadow-3 transition-[background-color,box-shadow] duration-200 ease-in-out',
+    'group relative col-span-1 flex min-h-41.5 flex-col overflow-hidden rounded-xl border-[0.5px] border-solid border-components-card-border bg-components-card-bg shadow-xs shadow-shadow-shadow-3 transition-[background-color,box-shadow,transform] duration-200 ease-in-out',
     isPreviewOnly
       ? 'opacity-60'
-      : 'hover:bg-components-card-bg-alt hover:shadow-md hover:shadow-shadow-shadow-5 hover:[--color-tag-selector-mask-bg:var(--color-tag-selector-mask-hover-bg)]',
+      : 'hover:-translate-y-px hover:bg-components-card-bg-alt hover:shadow-md hover:shadow-shadow-shadow-5 hover:[--color-tag-selector-mask-bg:var(--color-tag-selector-mask-hover-bg)]',
+  )
+
+  const leftAccentColor = cn(
+    isExternalProvider && 'bg-util-colors-orange-orange-500',
+    isPipelineUnpublished && 'bg-util-colors-purple-purple-500',
+    !isExternalProvider && !isPipelineUnpublished && dataset.embedding_available && 'bg-util-colors-blue-brand-blue-brand-500',
+    !dataset.embedding_available && 'bg-util-colors-red-red-500',
   )
   const content = (
     <>
@@ -115,6 +122,7 @@ const DatasetCard = ({
         data-disable-nprogress={true}
         data-step-by-step-tour-target={stepByStepTourCardTarget}
       >
+        <div aria-hidden className={`absolute left-0 top-0 h-full w-1 rounded-l-xl ${leftAccentColor}`} />
         <CornerLabels dataset={dataset} />
         {isPreviewOnly ? (
           <button

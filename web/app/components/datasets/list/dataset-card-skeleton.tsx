@@ -10,8 +10,9 @@ const DatasetCardSkeleton = ({ label, count = 6 }: DatasetCardSkeletonProps) => 
     {Array.from({ length: count }, (_, index) => (
       <div
         key={index}
-        className="h-47.5 rounded-xl border-[0.5px] border-components-card-border bg-components-card-bg p-4 shadow-xs shadow-shadow-shadow-3"
+        className="relative h-47.5 overflow-hidden rounded-xl border-[0.5px] border-components-card-border bg-components-card-bg p-4 shadow-xs shadow-shadow-shadow-3"
       >
+        <div aria-hidden className="absolute left-0 top-0 h-full w-1 rounded-l-xl bg-background-default-dimmed" />
         <SkeletonContainer className="h-full">
           <SkeletonRow>
             <SkeletonRectangle className="size-10 animate-pulse rounded-lg" />

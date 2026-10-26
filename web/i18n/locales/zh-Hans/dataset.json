@@ -157,6 +157,7 @@
   "serviceApi.disabled": "已停用",
   "serviceApi.enabled": "已启用",
   "serviceApi.title": "服务 API",
+  "stats.totalWords": "总词数",
   "unavailable": "不可用",
   "unknownError": "未知错误",
   "updated": "更新于",

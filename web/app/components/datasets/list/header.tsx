@@ -66,7 +66,7 @@ const DatasetListHeader = ({
   })
 
   return (
-    <div className="sticky top-0 z-10 flex flex-col gap-3.5 bg-background-body px-8 pt-4 pb-2">
+    <div className="sticky top-0 z-10 flex flex-col gap-3.5 border-b border-divider-subtle bg-background-body px-8 pt-4 pb-3">
       <div className="flex min-h-6 w-full flex-wrap items-center justify-between gap-2">
         <div className="flex min-w-0 flex-wrap items-center gap-2">
           <h1 className="min-w-0 text-[18px]/[21.6px] font-semibold text-text-primary">

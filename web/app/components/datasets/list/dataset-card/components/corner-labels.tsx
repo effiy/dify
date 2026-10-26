@@ -20,6 +20,16 @@ const CornerLabels = ({ dataset }: CornerLabelsProps) => {
     )
   }
 
+  if (dataset.runtime_mode === 'rag_pipeline' && !dataset.is_published) {
+    return (
+      <CornerLabel
+        label={t(($) => $['cornerLabel.pipeline'], { ns: 'dataset' })}
+        className="absolute top-0 right-0 z-5"
+        labelClassName="rounded-tr-xl"
+      />
+    )
+  }
+
   return null
 }
 

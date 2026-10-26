@@ -157,6 +157,7 @@
   "serviceApi.disabled": "Disabled",
   "serviceApi.enabled": "Enabled",
   "serviceApi.title": "Service API",
+  "stats.totalWords": "Words",
   "unavailable": "Unavailable",
   "unknownError": "Unknown error",
   "updated": "Updated",

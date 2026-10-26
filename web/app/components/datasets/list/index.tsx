@@ -30,6 +30,7 @@ import ExternalAPIPanel from '../external-api/external-api-panel'
 import Datasets from './datasets'
 import DatasetFirstEmptyState from './first-empty-state'
 import DatasetListHeader from './header'
+import StatsOverview from './stats-overview'
 
 function List() {
   const { t } = useTranslation(['dataset'])
@@ -160,6 +161,12 @@ function List() {
       <div role="status" aria-atomic="true" className="sr-only">
         {announceFilteredEmptyState ? filteredEmptyMessage : ''}
       </div>
+      {hasAnyDataset && hasResolvedFirstPage && !datasetListQuery.isPlaceholderData && (
+        <StatsOverview
+          datasetList={datasetListQuery.data ?? undefined}
+          total={pages[0]?.total ?? 0}
+        />
+      )}
       {showEmptyDataList ? (
         <DatasetFirstEmptyState
           canConnectExternalDataset={canConnectExternalDataset}
